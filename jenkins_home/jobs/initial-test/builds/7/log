@@ -1,0 +1,9 @@
+Started by user [8mha:////4K9p2DM6UcrqcyvHwfHLwKWhGgW5DVhjMFTlHRXnIljjAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/initial-test
+[initial-test] $ /bin/sh -xe /tmp/jenkins3952697693823849365.sh
++ NOMBRE=Fabian
++ APELLIDO=potato
++ /home/scripts/script.sh
+Hola,  
+Finished: SUCCESS

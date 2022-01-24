@@ -14,8 +14,9 @@
   <builders>
     <hudson.tasks.Shell>
       <command>NOMBRE=&quot;Fabian&quot;
-
-echo &quot;Hola $NOMBRE, La fecha es $(date +%F)&quot; &gt; /tmp/nombre</command>
+APELLIDO=&quot;potato&quot;
+/home/scripts/script.sh $NOMBRE $APELLIDO
+</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
