@@ -1,0 +1,7 @@
+Started by user [8mha:////4K9p2DM6UcrqcyvHwfHLwKWhGgW5DVhjMFTlHRXnIljjAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test-param
+[test-param] $ /bin/sh -xe /tmp/jenkins888718216305398683.sh
++ /home/scripts/script.sh batman Potato true
+Hola, batman Potato
+Finished: SUCCESS
