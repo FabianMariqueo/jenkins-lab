@@ -13,6 +13,11 @@ RUN chown remote_user:remote_user -R /home/remote_user && \
     chmod 600 /home/remote_user/.ssh/authorized_keys
 
 RUN ssh-keygen -A > /dev/null 2>&1
+
+RUN yum -y install mysql
+
+RUN yum -y install epel-release python3-pip && \
+    pip3 install awscli
 ## Remove nologin file to authorize remote ssh connections
 RUN rm /run/nologin
 
