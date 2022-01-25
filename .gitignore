@@ -1,3 +1,4 @@
 .vscode
 jenkins_home/*
+db_data/
 !jenkins_home/jobs/
