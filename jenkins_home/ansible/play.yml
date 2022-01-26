@@ -1,3 +1,14 @@
 - hosts: test1
   tasks:
-    - shell: echo Hola Mundo desde ansible> /tmp/hola-ansible
+
+    - debug:
+        var: TEXT_MSG
+
+    - debug:
+        msg: "No se va a ejecutar :("
+      tags: no-exec
+
+    - debug:
+        msg: "Esta linea sí se va a ejecutar :)"
+      tags: si-exec
+    - shell: echo $TEXT_MSG > /tmp/hola-ansible

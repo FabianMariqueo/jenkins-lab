@@ -1,3 +1,5 @@
 - hosts: test1
   tasks:
     - shell: echo Hola Mundo desde ansible > /tmp/hola-ansible
+
+## Copiar al contenedor de jenkins o mover al volumen jenkins_home/ansible
